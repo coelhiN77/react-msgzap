@@ -1,0 +1,93 @@
+.infoPanelContainer {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: white;
+}
+
+.infoPanel {
+  background-color: #222;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.infoImage {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.infoPanel h2 {
+  margin-top: 0;
+  text-align: center;
+  color: crimson;
+}
+
+.infoPanel h3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.infoBtn .btnInfo {
+  cursor: pointer;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  margin-left: 180px;
+}
+
+.btnInfo:hover {
+  color: crimson;
+  animation: 1s ease-in-out;
+}
+
+.closeBtn {
+  color: crimson;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.returnBtn {
+  color: crimson;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  margin-top: 14px;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.settingClick {
+  cursor: pointer;
+  height: 20px;
+  width: 200px;
+}
+
+.settingIcon {
+  font-size: 25px;
+  margin-right: 10px;
+  color: crimson;
+}

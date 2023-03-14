@@ -1,0 +1,56 @@
+.infoPanelContainer label {
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.themeBtn {
+  color: white;
+  background-color: crimson;
+  border: 0;
+  margin-top: 15px;
+  margin-left: 340px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.infoPanelContainer .chatContact {
+  width: 0px;
+  height: 0px;
+}
+
+.infoPanelContainer .chatContainer {
+  width: 0px;
+  height: 0px;
+}
+
+.infoPanelContainer .messageContainer {
+  margin-right: 0px;
+}
+
+.themeOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.themeOptionInner {
+  display: flex;
+  align-items: center;
+}
+
+.themeOptionInner input[type="radio"] {
+  display: block;
+  margin-right: 5px;
+}
+
+.themeOptionInner label {
+  display: block;
+}
+
+.themeName {
+  float: right;
+}

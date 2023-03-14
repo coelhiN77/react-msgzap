@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  position: fixed;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  padding: 3px;
+  text-align: center;
+  box-shadow: 10px 0 5px -1px #888;
+}
+
+p {
+  color: white;
+}
+
+.social_list {
+  color: crimson;
+}
+
+.span2 {
+  color: white;
+  font-weight: bold;
+}
+
+.span {
+  margin-left: 2px;
+  color: crimson;
+  font-weight: bold;
+}

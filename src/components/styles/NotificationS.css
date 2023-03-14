@@ -1,0 +1,14 @@
+.notificationIco {
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.notificationContainer {
+  color: crimson;
+  font-size: 23px;
+}
+
+.notificationContainer span {
+  color: white;
+}

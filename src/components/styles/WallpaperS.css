@@ -1,0 +1,32 @@
+.wallpaperContainer {
+  text-align: center;
+}
+
+.wallpaperContainer p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.wallpaperContainer select {
+  background-color: #222;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 7px 15px;
+}
+
+.wallpaperContainer select:focus {
+  outline: none;
+}
+
+.chatContact {
+  border: none;
+}
+
+.themeBody {
+  height: 200px;
+}
+
+.themeBody .saveBtn {
+  margin-top: 100px;
+}
